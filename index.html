@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfolio of Brady Chamberlin, an emerging professional with a foundation in web design, front-end development, and accessible user experience.">
+    <title>
+      Brady Chamberlin | Portfolio
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">
+      Skip to content
+    </a>
+    <header class="site-header">
+      <a class="brand" href="index.html">
+        Brady Chamberlin
+        <span class="brand-dot">
+          .
+        </span>
+      </a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">
+        Menu
+      </button>
+      <nav id="site-nav" aria-label="Main navigation">
+        <a aria-current="page" href="index.html">
+          Home
+        </a>
+        <a href="about.html">
+          About
+        </a>
+        <a href="skills.html">
+          Skills
+        </a>
+        <a href="work.html">
+          Work & contact
+        </a>
+      </nav>
+    </header>
+    <main id="main">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">
+            Emerging IT & network administration · Mattoon/Effingham, Illinois · surrounding areas
+          </p>
+          <h1>
+            Curious by nature. Thoughtful by design.
+          </h1>
+          <p class="lead">
+            Hi, I’m
+            <strong>
+              Brady Chamberlin
+            </strong>—a motivated learner building a foundation in IT, network administration, web design, and user experience. I follow cybersecurity trends and hope to grow toward digital forensics, where careful technical work can help people in tangible ways. I’m currently learning Windows Server and exploring how AI can be applied in real-world settings to address needs existing solutions may not meet and make a meaningful difference in people’s lives.
+          </p>
+          <div class="hero-actions">
+            <a class="button" href="work.html">
+              Explore my work
+              <span aria-hidden="true">
+                →
+              </span>
+            </a>
+            <a class="text-link" href="about.html">
+              A little about me
+            </a>
+          </div>
+          <p class="hero-note">
+            Currently learning, making, and open to opportunities in IT support, network administration, and related roles.
+          </p>
+        </div>
+        <img class="portrait-photo" src="images/brady-portrait.jpeg" alt="Brady Chamberlin, aspiring IT and network administration professional">
+      </section>
+      <section class="career-tool section-wrap">
+        <p class="eyebrow">
+          Interactive career explorer
+        </p>
+        <h2>
+          Where might your IT interests lead?
+        </h2>
+        <p>
+          Choose an interest to explore related career fields, national salary data, and possible job opportunities.
+        </p>
+        <form id="career-form">
+          <label for="career-interest">
+            Choose an area
+          </label>
+          <select id="career-interest" required>
+            <option value="">
+              Select an interest
+            </option>
+            <option value="support">
+              IT support
+            </option>
+            <option value="network">
+              Network administration
+            </option>
+            <option value="forensics">
+              Digital forensics
+            </option>
+          </select>
+          <button class="button" type="submit">
+            Explore careers
+            <span aria-hidden="true">
+              →
+            </span>
+          </button>
+        </form>
+        <div id="career-result" class="result" role="status" aria-live="polite" aria-atomic="true">
+          Career fields, salary information, and opportunities will appear here.
+        </div>
+      </section>
+      <section class="intro section-wrap">
+        <div>
+          <p class="eyebrow">
+            A useful mix
+          </p>
+          <h2>
+            Creative thinking, careful execution.
+          </h2>
+        </div>
+        <p>
+          My web design coursework has introduced me to HTML, CSS, JavaScript, responsive design, accessibility, and user experience. I’m also learning Windows Server and exploring how AI might help solve real-world problems where current approaches fall short. Alongside that foundation, I follow developments in cybersecurity and technology as I explore IT support, network administration, and eventually digital forensics. I bring patience, curiosity, and a willingness to learn the next tool—after reading the instructions, usually.
+        </p>
+      </section>
+      <section class="card-grid section-wrap">
+        <article class="feature-card">
+          <div class="card-icon" aria-hidden="true">
+            ✳
+          </div>
+          <div>
+            <p class="eyebrow">
+              What I’m learning
+            </p>
+            <h3>
+              Building for people
+            </h3>
+            <p>
+              From semantic page structure to keyboard-friendly interactions, I’m learning to make websites work for more people and more devices.
+            </p>
+            <a class="text-link" href="skills.html">
+              See my skills
+              <span aria-hidden="true">
+                →
+              </span>
+            </a>
+          </div>
+        </article>
+        <article class="feature-card">
+          <div class="card-icon" aria-hidden="true">
+            ↗
+          </div>
+          <div>
+            <p class="eyebrow">
+              What motivates me
+            </p>
+            <h3>
+              Interests with a purpose
+            </h3>
+            <p>
+              From designing websites to following cybersecurity and technology news, I enjoy learning how digital systems work. I also root for the Philadelphia Eagles—proof that commitment matters even when the fourth quarter gets stressful.
+            </p>
+            <a class="text-link" href="about.html">
+              Get to know me
+              <span aria-hidden="true">
+                →
+              </span>
+            </a>
+          </div>
+        </article>
+      </section>
+      <section class="quote-band">
+        <p class="eyebrow">
+          Next chapter
+        </p>
+        <h2>
+          Ready to bring a learner’s mindset to a real team.
+        </h2>
+        <p>
+          Looking for an opportunity in IT support, network administration, and related fields.
+        </p>
+        <a class="button button-light" href="work.html">
+          Get in touch
+          <span aria-hidden="true">
+            →
+          </span>
+        </a>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <a class="brand" href="index.html">
+        Brady Chamberlin
+        <span class="brand-dot">
+          .
+        </span>
+      </a>
+      <p>
+        Thoughtful work, ongoing learning, and the occasional well-timed pun.
+      </p>
+      <p>
+        ©
+        <span id="year">
+          2026
+        </span>
+        Brady Chamberlin
+      </p>
+    </footer>
+  </body>
+</html>
